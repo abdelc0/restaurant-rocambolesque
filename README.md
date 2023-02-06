@@ -10,8 +10,6 @@ Gebruikerslog-in/registratie
 
 Menu met afbeeldingen en beschrijvingen van gerechten
 
-Mogelijkheid om een bestelling te plaatsen
-
 Mogelijkheid om een reservering te plaatsen
 
 

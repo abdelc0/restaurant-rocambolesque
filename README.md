@@ -2,7 +2,7 @@ RAMBOLESQUE RESTAURANT
 
 INTRODUCTIE
 
-Rambolesque is een restaurant-applicatie waarmee klanten online eten kunnen bestellen en laten bezorgen op hun deurmat. Het doel van deze applicatie is om bestellen van eten gemakkelijker en efficiënter te maken voor klanten.
+Rambolesque is een restaurant-applicatie waarmee klanten online eten kunnen doorgeven en reserveren. Het doel van deze applicatie is om reserveren van eten en plekken gemakkelijker en efficiënter te maken voor klanten.
 
 FUNCTIES
 

@@ -59,12 +59,12 @@
             }
 
             if (isset($role)) {
-                echo '<a href="' . URLROOT . '/enquetes/make/2">Enquete</a>';
+                // echo '<a href="' . URLROOT . '/enquetes/make/2">Enquete</a>';
 
                 if ($role == 'admin') {
                     // Show the admin links
-                    echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
-                    echo '<a href="' . URLROOT . '/accounts/index">Manage accounts</a>';
+                    // echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
+                    // echo '<a href="' . URLROOT . '/accounts/index">Manage accounts</a>';
                 }
 
                 echo '<a href="' . URLROOT . '/registrations/logout">Logout</a>';

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 06 mrt 2023 om 13:19
+-- Gegenereerd op: 06 mrt 2023 om 14:49
 -- Serverversie: 5.7.31
 -- PHP-versie: 8.1.10
 
@@ -31,18 +31,17 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(30) NOT NULL,
-  `email` varchar(30) NOT NULL,
   `password` varchar(120) NOT NULL,
   `role` enum('user','admin') NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `users`
 --
 
-INSERT INTO `users` (`id`, `username`, `email`, `password`, `role`) VALUES
-(9, 'test', 'test@mboutrecht.nl', '$2y$10$JmblcLPvwVqbRPcgHrZXLeqHUDAsWitXdlWLBBuAb/4WNvj940W/.', 'user');
+INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES
+(10, 'test@mboutrecht.nl', '$2y$10$PLAMkmqzDn.YyTcctWRNs.xXgVN9zd9DM3VfYZwgG8P4qmCUpfSZi', 'user');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

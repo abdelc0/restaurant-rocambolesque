@@ -19,10 +19,6 @@ if (isset($data['error'])) {
         <input type="text" name="username" required>
     </div>
     <div class="input-group">
-        <label>Email</label>
-        <input type="email" name="email" required>
-    </div>
-    <div class="input-group">
         <label>Wachtwoord</label>
         <input type="password" name="password" required>
     </div>

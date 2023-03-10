@@ -77,7 +77,7 @@ class Registrations extends Controller
           $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
           // Check if the user exists
-          $userexist = $this->registrationsModel->checkExist($_POST['username'], $_POST['email']);
+          $userexist = $this->registrationsModel->checkExist($_POST['username']);
 
           // Check if $userexist exists
           if (!$userexist) {

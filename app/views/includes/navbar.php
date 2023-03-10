@@ -59,7 +59,7 @@
             }
 
             if (isset($role)) {
-                // echo '<a href="' . URLROOT . '#/#/#">Test</a>';
+                echo '<a href="' . URLROOT . '#/#/#">Reservatie overzicht</a>';
 
                 if ($role == 'admin') {
                     // Show the admin links

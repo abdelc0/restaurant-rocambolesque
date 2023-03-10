@@ -26,20 +26,18 @@ class Registration
 
     public function createUser($postData)
     {
-        $this->db->query("INSERT INTO `users` (`username`, `email`, `password`) VALUES (:usr, :eml, :pwd);");
+        $this->db->query("INSERT INTO `users` (`username`, `password`) VALUES (:usr, :pwd);");
         $this->db->bind(':usr', $postData['username'], PDO::PARAM_STR);
-        $this->db->bind(':eml', $postData['email'], PDO::PARAM_STR);
         $this->db->bind(':pwd', $postData['password'], PDO::PARAM_STR);
 
         return $this->db->execute();
     }
 
-    public function checkExist($username, $email)
+    public function checkExist($username)
     {
-        $this->db->query("SELECT `username`, `email` FROM `users` WHERE `username` = :usr OR `email` = :eml;");
+        $this->db->query("SELECT `username`, FROM `users` WHERE `username` = :usr");
         $this->db->bind(':usr', $username, PDO::PARAM_STR);
-        $this->db->bind(':eml', $email, PDO::PARAM_STR);
-
+     
         return $this->db->single();
     }
 }

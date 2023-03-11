@@ -34,9 +34,11 @@
         </div>
 
         <div class="nav-links">
+            <a href="<?= URLROOT ?>project-j2-rambolesque">home</a>
             <a href="<?= URLROOT ?>/overviews/menu">Menu</a>
             <a href="<?= URLROOT ?>/homepages/about">About</a>
             <a href="<?= URLROOT ?>/contact/index">Contact</a>
+            <a href="<?= URLROOT ?>homepages/Faq#question1">FAQ</a>
 
 
             <?php

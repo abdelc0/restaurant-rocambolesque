@@ -22,7 +22,7 @@
     font-size: 12px;
     line-height: 17px;
     padding: 20px 0px 5px 0px;
-    color: rgba(255, 255, 255, 0.2);
+    color: black;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.250em;
@@ -35,7 +35,7 @@
 }
 
 .footer .col ul li {
-    color: #999999;
+    color: black;
     font-size: 14px;
     font-family: inherit;
     font-weight: bold;
@@ -53,7 +53,7 @@
 }
 
 .footer .col ul li:hover {
-    color: #ffffff;
+    color: black;
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
@@ -126,7 +126,7 @@
   max-width: 380px;
   padding: 15px 35px 45px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid rgba(0,0,0,0.1);  
 }
   .form-signin-heading,

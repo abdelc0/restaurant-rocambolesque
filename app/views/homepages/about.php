@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aboutus</title>
-    <
-    <link rel="stylesheet" href="/css/aboutus.css">
+ <link rel="stylesheet" href="/css/aboutus.css">
+
 </head>
 <body>
     <div class="info-wrapper">
@@ -28,29 +21,10 @@
 </style>
 
 
-
-
-
-
-
-
-<!-- full size image: https://images.unsplash.com/photo-1601637155580-ac6c49428450-->
-
 </div>
 </div>
-
-
-
-
-
-<!-- nav bar -->
-
-
-
-
 
 
 
 </body>
 
-</html>

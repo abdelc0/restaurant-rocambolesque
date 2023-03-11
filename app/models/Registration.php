@@ -35,7 +35,7 @@ class Registration
 
     public function checkExist($username)
     {
-        $this->db->query("SELECT `username`, FROM `users` WHERE `username` = :usr");
+        $this->db->query("SELECT `username` FROM `users` WHERE `username` = :usr");
         $this->db->bind(':usr', $username, PDO::PARAM_STR);
      
         return $this->db->single();

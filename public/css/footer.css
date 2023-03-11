@@ -46,6 +46,14 @@
     -moz-transition: .2s;
 }
 
+.footer .col ul li a {
+  text-decoration: none
+}
+
+.footer .col a {
+color: black;
+  }
+
 .social ul li {
     display: inline-block;
     padding-right: 5px !important;
@@ -144,9 +152,4 @@
 	  height: auto;
 	  padding: 10px;
   }
-    @include box-sizing(border-box);
-
-		:focus {
-		  z-index: 2;
-		}
-	
+    

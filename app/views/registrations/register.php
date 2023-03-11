@@ -33,3 +33,5 @@ if (isset($data['error'])) {
         Al een account? <a href="<?= URLROOT ?>/registrations/login">Log in!</a>
     </p>
 </form>
+
+<br> <br>

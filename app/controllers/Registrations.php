@@ -91,7 +91,7 @@ class Registrations extends Controller
               $this->view('registrations/register', $data);
             }
           } else {
-            $data = ['error' => 'Deze gebruikersnaam of email is al in gebruik'];
+            $data = ['error' => 'Deze gebruikersnaam is al in gebruik'];
             $this->view('registrations/register', $data);
           }
         }

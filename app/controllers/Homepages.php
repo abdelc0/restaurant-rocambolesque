@@ -13,6 +13,6 @@ class Homepages extends Controller
   
   public function faq()
   {
-    $this->view('homepages/Faq');
+    $this->view('homepages/faq');
   }
 }

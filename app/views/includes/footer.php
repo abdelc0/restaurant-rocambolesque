@@ -8,17 +8,49 @@
             <ul>
                 <li>Studiekeuze-events</li>
                 <li>Onderwijsboulevard</li>
-                <li>Click, onze studiekeuzetool</li>
+                <li>Click, onze studiekeuzetool</li> 
                 <li>Schoolvakanties</li>
             </ul>
         </div>
         <div class="col">
             <h1>Snel naar</h1>
             <ul>
-                <li>Opleidingen</li>
-                <li>Veelgestelde vragen</li>
-                <li>Vacatures</li>
-                <li>Voor ouders</li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/overviews/menu">Menu</a></li>
+          <li><a href="/homepages/about">About</a></li>
+          <li><a href="/contact/index">Contact</a></li>
+          <li><a href="/homepages/faq">FAQ</a></li>
+          <?php
+            // Check if the user id is set.
+            if (isset($_SESSION['user_id'])) {
+                // Require Registration so we can fetch the role.
+                require_once APPROOT . '/models/Registration.php';
+
+                // Create new instance of Registration
+                $lala = new Registration();
+
+                // Get the role
+                $user = $lala->getRole();
+
+                // Create role variable
+                $role = $user->role;
+            }
+
+            if (isset($role)) {
+                echo '<li><a href="' . URLROOT . '/reservation/overview">Reservatie overzicht</a></li>';
+
+                if ($role == 'admin') {
+                    // Show the admin links
+                   // echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
+                    echo '<li><a href="' . URLROOT . '/accounts/index">Manage accounts</a></li>';
+                }
+
+                echo '<li><a href="' . URLROOT . '/registrations/logout">Logout</a></li>';
+            } else {
+                echo '<li><a href="' . URLROOT . '/registrations/login">Login</a></li>';
+                echo '<li><a href="' . URLROOT . '/registrations/register">Register</a></li>';
+            }
+            ?>
             </ul>
         </div>
         <div class="col">

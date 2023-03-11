@@ -28,4 +28,7 @@ if (isset($data['error'])) {
     <p>
         Nog geen account? <a href="<?= URLROOT ?>/registrations/register">Meld je aan!</a>
     </p>
+    
 </form>
+
+<br> <br>

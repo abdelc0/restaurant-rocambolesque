@@ -10,14 +10,14 @@ class Account
 
     public function getAccounts()
     {
-        $this->db->query("SELECT `id`, `username`, `email`, `role` FROM `users`;");
+        $this->db->query("SELECT `id`, `username`, `role` FROM `users`;");
 
         return $this->db->resultSet();;
     }
 
     public function getSingleAccount($id)
     {
-        $this->db->query("SELECT `id`, `username`, `email`, `role` FROM `users` WHERE `id` = :id;");
+        $this->db->query("SELECT `id`, `username`, `role` FROM `users` WHERE `id` = :id;");
         $this->db->bind(':id', $id, PDO::PARAM_INT);
 
         return $this->db->single();
@@ -25,17 +25,16 @@ class Account
 
     public function updateAccount($post)
     {
-        $this->db->query("UPDATE `users` SET `username` = :username, `email` = :email, `role` = :role WHERE `id` = :id;");
+        $this->db->query("UPDATE `users` SET `username` = :username, `role` = :role WHERE `id` = :id;");
         if (isset($post['id'])) {
             $this->db->bind(':id', $post['id'], PDO::PARAM_INT);
         } else {
             return false;
         }
 
-        // Check if username, email or role are set and for each bind the value to the query
+        // Check if username or role are set and for each bind the value to the query
         $binds = [
             ':username' => $post['username'],
-            ':email' => $post['email'],
             ':role' => $post['role']
         ];
 

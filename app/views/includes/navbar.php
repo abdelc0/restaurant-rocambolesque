@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="/img/Rocambolesque-logo-black.png" type="image/x-icon">
 
     <!-- Styling for the footer and navbar -->
-    <link rel="stylesheet" href="/css/nav-foot.css">
+    <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
     <!-- Hamburger link for small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -30,15 +30,15 @@
                 <span></span>
                 <span></span>
                 <span></span>
-            </label>
+            </label> 
         </div>
 
         <div class="nav-links">
-            <a href="<?= URLROOT ?>project-j2-rambolesque">home</a>
+            <a href="<?= URLROOT ?>/">Home</a>
             <a href="<?= URLROOT ?>/overviews/menu">Menu</a>
             <a href="<?= URLROOT ?>/homepages/about">About</a>
             <a href="<?= URLROOT ?>/contact/index">Contact</a>
-            <a href="<?= URLROOT ?>homepages/Faq#question1">FAQ</a>
+            <a href="<?= URLROOT ?>/homepages/faq">FAQ</a>
 
 
             <?php
@@ -61,11 +61,11 @@
             }
 
             if (isset($role)) {
-                echo '<a href="' . URLROOT . '#/#/#">Reservatie overzicht</a>';
+                echo '<a href="' . URLROOT . '/reservation/index">Reservatie overzicht</a>';
 
                 if ($role == 'admin') {
                     // Show the admin links
-                    echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
+                   // echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
                     echo '<a href="' . URLROOT . '/accounts/index">Manage accounts</a>';
                 }
 

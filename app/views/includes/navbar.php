@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-=======
-@@ -1,77 +0,0 @@
->>>>>>> Stashed changes
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,19 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< Updated upstream
     <link rel="shortcut icon" href="/img/Rocambolesque-logo-black.png" type="image/x-icon">
 
     <!-- Styling for the footer and navbar -->
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
-=======
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-
-    <!-- Styling for the footer and navbar -->
-    <link rel="stylesheet" href="/css/nav-foot.css">
-
->>>>>>> Stashed changes
     <!-- Hamburger link for small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title><?= SITENAME; ?></title>
@@ -42,7 +30,6 @@
                 <span></span>
                 <span></span>
                 <span></span>
-<<<<<<< Updated upstream
             </label> 
         </div>
 
@@ -53,16 +40,6 @@
             <a href="<?= URLROOT ?>/contact/index">Contact</a>
             <a href="<?= URLROOT ?>/homepages/faq">FAQ</a>
 
-=======
-            </label>
-        </div>
-
-        <div class="nav-links">
-            <a href="<?= URLROOT ?>/overviews/menu">Menu</a>
-            <a href="<?= URLROOT ?>/homepages/about">About</a>
-            <a href="<?= URLROOT ?>/contact/index">Contact</a>
-    
->>>>>>> Stashed changes
 
             <?php
             // Start session
@@ -84,19 +61,11 @@
             }
 
             if (isset($role)) {
-<<<<<<< Updated upstream
                 echo '<a href="' . URLROOT . '/reservation/index">Reservatie overzicht</a>';
 
                 if ($role == 'admin') {
                     // Show the admin links
                    // echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
-=======
-                echo '<a href="' . URLROOT . '/enquetes/make/2">Enquete</a>';
-
-                if ($role == 'admin') {
-                    // Show the admin links
-                    echo '<a href="' . URLROOT . '/enquetes/index">Manage enquetes</a>';
->>>>>>> Stashed changes
                     echo '<a href="' . URLROOT . '/accounts/index">Manage accounts</a>';
                 }
 

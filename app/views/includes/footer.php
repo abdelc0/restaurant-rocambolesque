@@ -18,7 +18,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="/overviews/menu">Menu</a></li>
           <li><a href="/homepages/about">About</a></li>
-          <li><a href="/contact/index">Contact</a></li>
+          <li><a href="/homepages/contact">Contact</a></li>
           <li><a href="/homepages/faq">FAQ</a></li>
           <?php
             // Check if the user id is set.

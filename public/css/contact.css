@@ -1,0 +1,156 @@
+body {
+    background-color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    font-size: 1.3em;
+}
+  
+.title {
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+}
+  
+.pageTitle {
+    font-size: 2em;
+    padding-left: 10%;
+    font-weight: bold;
+}
+  
+.secondaryTitle {
+    display: center;
+    color: grey;
+}
+  
+.form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 60%;
+    height: 83%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-top: 5px solid #4e4f4f;
+    /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+}
+  
+::-webkit-input-placeholder {
+    font-size: 1.3em;
+}
+  
+.title {
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+}
+  
+  
+.pageTitle {
+    font-size: 2em;
+    padding-left: 10%;
+    font-weight: bold;
+}
+  
+.secondaryTitle {
+    display: center;
+    color: grey;
+}
+  
+.name {
+    background-color: #ebebeb;
+    color: rgb(0, 0, 0);
+    width: 60%;
+    height: 2em;
+}
+  
+.name:hover {
+    border-bottom: 5px solid #586067;
+    height: 2em;
+    width: 60%;
+    transition: ease 0.3s;
+}
+  
+.surname {
+    background-color: #ebebeb;
+    height: 2em;
+    width: 60%;
+}
+  
+.phone.number {
+    background-color: #ebebeb;
+    height: 2em;
+    width: 60%;
+}
+  
+.email {
+    background-color: #ebebeb;
+    height: 2em;
+    width: 60%;
+}
+  
+.email:hover {
+    border-bottom: 5px solid #586067;
+    height: 2em;
+    width: 60%;
+    transition: ease 0.3s;
+}
+  
+.surname:hover {
+    border-bottom: 5px solid #586067;
+    height: 2em;
+    width: 60%;
+    transition: ease 0.3s;
+}
+  
+.phone.number:hover {
+    border-bottom: 5px solid #586067;
+    height: 2em;
+    width: 60%;
+    transition: ease 0.3s;
+}
+  
+.message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+    width: 60%;
+}
+  
+.message:hover {
+    border-bottom: 5px solid #586067;
+    height: 10rem;
+    width: 60%;
+    transition: ease 0.3s;
+}
+  
+.formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 30%;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+}
+  
+.submit {
+    width: 20%;
+    color: white;
+    background-color: #000000;
+    font-size: 20px;
+}
+  
+.submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+}

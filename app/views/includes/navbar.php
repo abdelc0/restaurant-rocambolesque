@@ -37,7 +37,7 @@
             <a href="<?= URLROOT ?>/">Home</a>
             <a href="<?= URLROOT ?>/overviews/menu">Menu</a>
             <a href="<?= URLROOT ?>/homepages/about">About</a>
-            <a href="<?= URLROOT ?>/contact/index">Contact</a>
+            <a href="<?= URLROOT ?>/homepages/contact">Contact</a>
             <a href="<?= URLROOT ?>/homepages/faq">FAQ</a>
 
 

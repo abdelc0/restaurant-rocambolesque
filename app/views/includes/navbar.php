@@ -50,10 +50,10 @@
                 require_once APPROOT . '/models/Registration.php';
 
                 // Create new instance of Registration
-                $lala = new Registration();
-
+                $registration = new Registration();
+                 
                 // Get the role
-                $user = $lala->getRole();
+                $user = $registration->getRole();
 
                 // Create role variable
                 $role = $user->role;

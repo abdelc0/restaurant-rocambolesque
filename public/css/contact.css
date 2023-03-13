@@ -26,7 +26,7 @@ body {
   
 .form {
     background: #fff;
-    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.293);
     border-radius: 5px;
     max-width: 60%;
     height: 83%;
@@ -71,7 +71,7 @@ body {
 }
   
 .name:hover {
-    border-bottom: 5px solid #586067;
+    border-bottom: 5px solid #7d8084;
     height: 2em;
     width: 60%;
     transition: ease 0.3s;

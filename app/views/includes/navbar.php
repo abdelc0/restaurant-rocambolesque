@@ -40,7 +40,6 @@
             <a href="<?= URLROOT ?>/homepages/contact">Contact</a>
             <a href="<?= URLROOT ?>/homepages/faq">FAQ</a>
 
-
             <?php
             // Start session
             session_start();
@@ -77,3 +76,5 @@
             ?>
         </div>
     </div>
+</body>
+</html>

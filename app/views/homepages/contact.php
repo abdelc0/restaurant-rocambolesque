@@ -18,7 +18,7 @@ if (isset($data['error'])) {
                 <input type="text" name="name" class="name formEntry" placeholder="Naam" required />
                 <input type="text" name="surname" class="surname formEntry" placeholder="Achternaam" required />
                 <input type="email" name="email" class="email formEntry" placeholder="Email" required />
-                <input type="tel" name="phone" class="phone formEntry" placeholder="Telefoonnummer" />
+                <input type="tel" name="phone" class="phone formEntry" placeholder="Telefoonnummer"  maxlength="10"> 
                 <textarea tyep="text" name="message" class="message formEntry" placeholder="Uw bericht" required></textarea>
 
                 <button type="submit" class="submit formEntry">Verzenden</button>

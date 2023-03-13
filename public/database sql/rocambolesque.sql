@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 06 mrt 2023 om 14:49
+-- Gegenereerd op: 13 mrt 2023 om 06:09
 -- Serverversie: 5.7.31
 -- PHP-versie: 8.1.10
 
@@ -20,6 +20,30 @@ SET time_zone = "+00:00";
 --
 -- Database: `rocambolesque`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `contact`
+--
+
+DROP TABLE IF EXISTS `contact`;
+CREATE TABLE IF NOT EXISTS `contact` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `name` varchar(60) NOT NULL,
+  `surname` varchar(100) NOT NULL,
+  `email` varchar(320) NOT NULL,
+  `phone` int(14) DEFAULT NULL,
+  `message` varchar(50000) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `contact`
+--
+
+INSERT INTO `contact` (`id`, `name`, `surname`, `email`, `phone`, `message`) VALUES
+(1, 'test', 'test', 'test.test@test.nl', 612345678, 'hoi');
 
 -- --------------------------------------------------------
 

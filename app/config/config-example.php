@@ -6,6 +6,6 @@ define('DB_NAME', 'rocambolesque');
 
 define('APPROOT', dirname(dirname(__FILE__)));
 
-define('URLROOT', 'http://project-j2-rambolesque/');
+define('URLROOT', 'http://rocambolesque-mvc.lazar.net');
 
 define('SITENAME', 'Restaurant Rambolesque');

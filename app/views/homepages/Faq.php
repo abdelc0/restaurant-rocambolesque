@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="/css/FAQ.css">
-
-    <body>
+</head>
+<body>
     <div class="text">  
-    <h1>FAQ</h1>
+        <h1>FAQ</h1>
     </div>
     <section>
         
@@ -29,7 +29,6 @@
                     Algemene bestedingslimiet
                         <i class="icon ion-md-add"></i>
                         <i class="icon ion-md-remove"></i>
-                        
                     </a>
                     <div class="answer">
                         <p>Het bestedingslimiet is standaard ingesteld op een maximum van 250 euro per order. De franchisenemer kan dit bedrag ophogen. Mocht je dit willen aanpassen neem dan contact op met de vestiging.

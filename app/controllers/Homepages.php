@@ -10,6 +10,11 @@ class Homepages extends Controller
   {
     $this->view('homepages/about');
   }
+
+  public function contact()
+  {
+    $this->view('homepages/contact');
+  }
   
   public function faq()
   {

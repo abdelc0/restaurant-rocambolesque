@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Gegenereerd op: 13 mrt 2023 om 06:09
--- Serverversie: 5.7.31
+-- Gegenereerd op: 17 mrt 2023 om 13:30
+-- Serverversie: 5.7.36
 -- PHP-versie: 8.1.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -58,14 +58,15 @@ CREATE TABLE IF NOT EXISTS `users` (
   `password` varchar(120) NOT NULL,
   `role` enum('user','admin') NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `users`
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `role`) VALUES
-(10, 'test@mboutrecht.nl', '$2y$10$PLAMkmqzDn.YyTcctWRNs.xXgVN9zd9DM3VfYZwgG8P4qmCUpfSZi', 'user');
+(13, 'test@mboutrecht.nl', '$2y$10$KEwf/3lfgO6V062bvHB83OVrzFJCaM4HY8mul.W6Ixd3t1THNacBa', 'user'),
+(14, 'admin', '$2y$10$D8PrziiMrrHha5jr9QnEnei0FrR84MDzrGy.ZC4dm3VF8JVQl5jvq', 'admin');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

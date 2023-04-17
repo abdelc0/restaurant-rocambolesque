@@ -83,19 +83,16 @@
             <ul>
                 <a href="https://facebook.com" target="_blank">
                     <div class="fb">
-
                         <img src="https://rocka.co/images/icons/ic_facebook.svg">
                     </div>
                 </a>
                 <a href="https://twitter.com" target="_blank">
                     <div class="tw">
-
                         <img src="https://rocka.co/images/icons/ic_twitter.svg">
                     </div>
                 </a>
                 <a href="https://linkedin.com" target="_blank">
                     <div class="in">
-
                         <img src="https://rocka.co/images/icons/ic_linkedin.svg">
                     </div>
                 </a>
